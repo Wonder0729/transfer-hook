@@ -1,0 +1,20 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+transfer_hook = "7XZAbVvb2Ubu8SUEPKkE7nBYT8qedoPjhmFSnQ3VFYzr"
+
+[programs.devnet]
+transfer_hook = "7XZAbVvb2Ubu8SUEPKkE7nBYT8qedoPjhmFSnQ3VFYzr"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+client = "yarn run ts-node client/*.ts"

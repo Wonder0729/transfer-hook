@@ -1,0 +1,6 @@
+MINT=
+DECIMALS=9
+REFUND_PERCENTAGE=100
+WITHDRAW_WITHHELD_PRIVATE_KEY=
+ANCHOR_PROVIDER_URL="https://api.devnet.solana.com"
+ANCHOR_WALLET="./authorities/payer.json"

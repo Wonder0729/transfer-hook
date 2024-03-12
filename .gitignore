@@ -1,8 +1,10 @@
 
 .anchor
 .DS_Store
-target
+SC/target
 **/*.rs.bk
 node_modules
 test-ledger
 .yarn
+BE/.env
+BE/authorities
